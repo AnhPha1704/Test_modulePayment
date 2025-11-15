@@ -1,0 +1,168 @@
+{
+    "timestamp": "2025-11-15T17:26:26+01:00",
+    "request": {
+        "app_id": 2554,
+        "app_trans_id": "251115_1763223985722",
+        "app_user": "demo_user_2c3bfaa0",
+        "amount": 50000,
+        "app_time": 1763223985722,
+        "embed_data": "{\"preferred_payment_method\":[\"international_card\"]}",
+        "bank_code": "",
+        "description": "Demo thanh toán",
+        "callback_url": "http:\/\/localhost\/test_module_payment\/callback.php",
+        "redirect_url": "http:\/\/localhost\/test_module_payment\/redirect.php",
+        "item": "[]",
+        "mac": "f3041a8ab46f3cd8e7e12bcd84ec8da9b7f422cb5452d07fef2fe2a95399e784"
+    },
+    "response": {
+        "return_code": 2,
+        "return_message": "Giao dịch thất bại",
+        "sub_return_code": -402,
+        "sub_return_message": "Chữ ký không hợp lệ"
+    },
+    "raw_response": "{\"return_code\":2,\"return_message\":\"Giao dịch thất bại\",\"sub_return_code\":-402,\"sub_return_message\":\"Chữ ký không hợp lệ\"}"
+}
+{
+    "timestamp": "2025-11-15T17:26:50+01:00",
+    "request": {
+        "app_id": 2554,
+        "app_trans_id": "251115_1763224010431",
+        "app_user": "demo_user_8b927475",
+        "amount": 50000,
+        "app_time": 1763224010431,
+        "embed_data": "{\"preferred_payment_method\":[\"international_card\"]}",
+        "bank_code": "",
+        "description": "Demo thanh toán",
+        "callback_url": "http:\/\/localhost\/test_module_payment\/callback.php",
+        "redirect_url": "http:\/\/localhost\/test_module_payment\/redirect.php",
+        "item": "[]",
+        "mac": "59239eaaf3c2ef6ee22cde6631feb85910941cec237b08c77f02959051673f33"
+    },
+    "response": {
+        "return_code": 2,
+        "return_message": "Giao dịch thất bại",
+        "sub_return_code": -402,
+        "sub_return_message": "Chữ ký không hợp lệ"
+    },
+    "raw_response": "{\"return_code\":2,\"return_message\":\"Giao dịch thất bại\",\"sub_return_code\":-402,\"sub_return_message\":\"Chữ ký không hợp lệ\"}"
+}
+{
+    "timestamp": "2025-11-15T17:34:33+01:00",
+    "request": {
+        "app_id": 2554,
+        "app_trans_id": "251115_1763224472853",
+        "app_user": "demo_user_9cfa6bb7",
+        "amount": 50000,
+        "app_time": 1763224472853,
+        "embed_data": "{\"preferred_payment_method\":[\"international_card\"]}",
+        "bank_code": "",
+        "description": "Demo thanh toán",
+        "callback_url": "http:\/\/localhost\/test_module_payment\/callback.php",
+        "redirect_url": "http:\/\/localhost\/test_module_payment\/redirect.php",
+        "item": "[]",
+        "mac": "e24636c2006a575b9da063c1c56845873e3dbf411b703a3353b0edb37c844070"
+    },
+    "response": {
+        "return_code": 2,
+        "return_message": "Giao dịch thất bại",
+        "sub_return_code": -402,
+        "sub_return_message": "Chữ ký không hợp lệ"
+    },
+    "raw_response": "{\"return_code\":2,\"return_message\":\"Giao dịch thất bại\",\"sub_return_code\":-402,\"sub_return_message\":\"Chữ ký không hợp lệ\"}"
+}
+{
+    "timestamp": "2025-11-15T17:37:06+01:00",
+    "request": {
+        "app_id": 2554,
+        "app_trans_id": "251115_1763224626607",
+        "app_user": "demo_user_d224c49c",
+        "amount": 50000,
+        "app_time": 1763224626607,
+        "embed_data": "{\"preferred_payment_method\":[\"international_card\"]}",
+        "bank_code": "",
+        "description": "Demo thanh toán",
+        "callback_url": "http:\/\/localhost\/test_module_payment\/callback.php",
+        "redirect_url": "http:\/\/localhost\/test_module_payment\/redirect.php",
+        "item": "[]",
+        "mac": "8408958596c5e95c0040a5baab4a8b9cbded79c37f0429713fa27aaa3a32d50d"
+    },
+    "response": {
+        "return_code": 2,
+        "return_message": "Giao dịch thất bại",
+        "sub_return_code": -402,
+        "sub_return_message": "Chữ ký không hợp lệ"
+    },
+    "raw_response": "{\"return_code\":2,\"return_message\":\"Giao dịch thất bại\",\"sub_return_code\":-402,\"sub_return_message\":\"Chữ ký không hợp lệ\"}"
+}
+{
+    "timestamp": "2025-11-15T17:37:07+01:00",
+    "request": {
+        "app_id": 2554,
+        "app_trans_id": "251115_1763224627626",
+        "app_user": "demo_user_8e42d970",
+        "amount": 50000,
+        "app_time": 1763224627626,
+        "embed_data": "{\"preferred_payment_method\":[\"domestic_card\",\"account\"]}",
+        "bank_code": "",
+        "description": "Demo thanh toán",
+        "callback_url": "http:\/\/localhost\/test_module_payment\/callback.php",
+        "redirect_url": "http:\/\/localhost\/test_module_payment\/redirect.php",
+        "item": "[]",
+        "mac": "adba6805c7db91d39c62d141a44e531465e010e98a48e48787d06d0ea62c66c3"
+    },
+    "response": {
+        "return_code": 2,
+        "return_message": "Giao dịch thất bại",
+        "sub_return_code": -402,
+        "sub_return_message": "Chữ ký không hợp lệ"
+    },
+    "raw_response": "{\"return_code\":2,\"return_message\":\"Giao dịch thất bại\",\"sub_return_code\":-402,\"sub_return_message\":\"Chữ ký không hợp lệ\"}"
+}
+{
+    "timestamp": "2025-11-15T17:37:09+01:00",
+    "request": {
+        "app_id": 2554,
+        "app_trans_id": "251115_1763224628892",
+        "app_user": "demo_user_c16c0e2f",
+        "amount": 50000,
+        "app_time": 1763224628892,
+        "embed_data": "{\"preferred_payment_method\":[\"zalopay_wallet\"]}",
+        "bank_code": "",
+        "description": "Demo thanh toán",
+        "callback_url": "http:\/\/localhost\/test_module_payment\/callback.php",
+        "redirect_url": "http:\/\/localhost\/test_module_payment\/redirect.php",
+        "item": "[]",
+        "mac": "99902df59c5f93c88609e8670df35ea432fa77da5e5cbd62b8d8028f183bbd9c"
+    },
+    "response": {
+        "return_code": 2,
+        "return_message": "Giao dịch thất bại",
+        "sub_return_code": -402,
+        "sub_return_message": "Chữ ký không hợp lệ"
+    },
+    "raw_response": "{\"return_code\":2,\"return_message\":\"Giao dịch thất bại\",\"sub_return_code\":-402,\"sub_return_message\":\"Chữ ký không hợp lệ\"}"
+}
+{
+    "timestamp": "2025-11-15T17:37:32+01:00",
+    "request": {
+        "app_id": 2554,
+        "app_trans_id": "251115_1763224652391",
+        "app_user": "demo_user_fc6ae611",
+        "amount": 50000,
+        "app_time": 1763224652391,
+        "embed_data": "{\"preferred_payment_method\":[\"international_card\"]}",
+        "bank_code": "",
+        "description": "Demo thanh toán",
+        "callback_url": "http:\/\/localhost\/test_module_payment\/callback.php",
+        "redirect_url": "http:\/\/localhost\/test_module_payment\/redirect.php",
+        "item": "[]",
+        "mac": "ff845ebefc3b57ce78385b37e9caffddb4570d061f173c0c29a005c954399656"
+    },
+    "response": {
+        "return_code": 2,
+        "return_message": "Giao dịch thất bại",
+        "sub_return_code": -402,
+        "sub_return_message": "Chữ ký không hợp lệ"
+    },
+    "raw_response": "{\"return_code\":2,\"return_message\":\"Giao dịch thất bại\",\"sub_return_code\":-402,\"sub_return_message\":\"Chữ ký không hợp lệ\"}"
+}
