@@ -8,7 +8,7 @@ $config = [
     "endpoint" => "https://sb-openapi.zalopay.vn/v2/create"
 ];
 
-$embeddata = json_encode(["redirecturl" => "https://www.google.com"]); // Merchant's data
+$embeddata = json_encode(["redirecturl" => "https://unswilled-shantel-domiciliary.ngrok-free.dev/test_module_payment/redirect.php"]); // Merchant's data, page to show after payment
 
 $items = '[]'; // Merchant's data
 $transID = rand(0,1000000); //Random trans id
@@ -18,8 +18,8 @@ try {
 
     // Insert into Orders
     $stmt = $db->prepare("INSERT INTO Orders (CustomerID, TotalAmount, OrderDescription) VALUES (1, ?, ?)");
-    $amount = 50000; // Fixed for test
-    $description = "Đơn hàng test #$transID";
+    $amount = $_POST['amount'] ?? 50000; // From form, default for test
+    $description = $_POST['description'] ?? "Đơn hàng test #$transID";
     $stmt->execute([$amount, $description]);
     $orderId = $db->lastInsertId();
 } catch (PDOException $e) {
@@ -33,8 +33,8 @@ $order = [
     "app_user" => "user123",
     "item" => $items,
     "embed_data" => $embeddata,
-    "amount" => 50000,
-    "description" => "Đơn hàng test #$transID",
+    "amount" => $amount,
+    "description" => $description,
     "bank_code" => "",
     "callback_url" => "https://unswilled-shantel-domiciliary.ngrok-free.dev/test_module_payment/callback.php",
 ];
