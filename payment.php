@@ -41,7 +41,7 @@ $order = [
 
 try {
     // Insert into Payments
-    $stmt2 = $db->prepare("INSERT INTO Payments (OrderID, Amount, MethodID, TransactionCode, Currency) VALUES (?, ?, 5, ?, 'VND')");
+    $stmt2 = $db->prepare("INSERT INTO Payments (OrderID, Amount, MethodID, TransactionCode, Currency) VALUES (?, ?, 1, ?, 'VND')");
     $stmt2->execute([$orderId, $order["amount"], $order["app_trans_id"]]);
 } catch (PDOException $e) {
     die("Database error: " . $e->getMessage());
